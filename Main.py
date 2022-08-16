@@ -65,7 +65,8 @@ class LinkedList:
     def status(self):
         """
         It prints all the elements of list.
-        ""
+        """
+        elements = []
         current = self.head
         while current:
             elements.append(current.data)
@@ -104,7 +105,7 @@ class Solution:
         while curr is not None:
             num = str(curr.data) + num
             curr = curr.next
-        return int(num)
+        
 
 
 # Do not edit the following code
